@@ -1,2 +1,2 @@
 # Python-program
-Exploring python 
+Exploring Python 
