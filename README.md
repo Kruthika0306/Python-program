@@ -1,2 +1,2 @@
-# Python-program
+# PYTHON-PRACTICE
 Exploring Python 
