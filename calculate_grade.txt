@@ -1,0 +1,24 @@
+def calculate_grade(marks):
+    average = sum(marks) / len(marks)
+
+    if average >= 90:
+        grade = "A"
+    elif average >= 75:
+        grade = "B"
+    elif average >= 60:
+        grade = "C"
+    else:
+        grade = "D"
+
+    return average, grade
+
+
+marks = []
+for i in range(3):
+    mark = float(input(f"Enter mark {i+1}: "))
+    marks.append(mark)
+
+avg, grade = calculate_grade(marks)
+
+print("Average:", avg)
+print("Grade:", grade)
